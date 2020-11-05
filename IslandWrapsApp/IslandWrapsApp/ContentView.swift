@@ -66,7 +66,7 @@ struct ContentView: View {
         
         }// End of HStack with buttons
     }
-}
+}//This is a test
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
