@@ -24,7 +24,7 @@ class Menus: ObservableObject {
                  
                  print(tempDict)
                  
-                 let tempArray = tempDict["menus"]! as! Array<[String:Any]>
+                 let tempArray = tempDict["menu"]! as! Array<[String:Any]>
                  
                  var tempMenu: [Menu] = []
                  
