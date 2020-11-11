@@ -16,8 +16,10 @@ enum Tabs: Hashable {
 }
 
 struct ContentView: View {
+    @EnvironmentObject var menus: Menus
     @State private var selectedTab = Tabs.home
     @State private var counterNumber = 0
+    
     var body: some View {
         Text("This is a test!")
             .padding()
@@ -84,8 +86,7 @@ struct ContentView: View {
             }
             .tag(Tabs.home)
             
-            //ParksListView()
-            Text("Hi")
+            MenuListView()
             .tabItem {
                 Image(systemName: "bag")
                     Text("Order")
@@ -116,12 +117,10 @@ struct ContentView: View {
             .tag(Tabs.contact)
     } // End of Tab View
     }//body
-}//This is a test
-
-// Trying to push
+}//ContentView
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(Menus())
     }
 }
