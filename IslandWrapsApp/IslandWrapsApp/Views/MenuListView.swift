@@ -60,7 +60,7 @@ struct MenuRow: View {
     var body: some View {
         
         VStack(alignment: .leading) {
-            Text("\(m.itemName)")
+            Text("\(m.menuItem)")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .foregroundColor(.blue)
