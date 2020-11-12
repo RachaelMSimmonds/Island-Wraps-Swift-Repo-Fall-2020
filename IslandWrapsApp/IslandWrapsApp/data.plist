@@ -1546,16 +1546,256 @@
 	<key>menu</key>
 	<array>
 		<dict>
-			<key>itemName</key>
-			<string>Hamburger</string>
-			<key>itemPrice</key>
-			<string>$5.99</string>
+			<key>menuItem</key>
+			<string>Wraps</string>
+			<key>image</key>
+			<string>wraps.jpg</string>
+			<key>optionOne</key>
+			<string>Jerk Chicken Wrap</string>
+			<key>priceOne</key>
+			<string>$12.00</string>
+			<key>descOne</key>
+			<string>fdjkfd</string>
+			<key>optionTwo</key>
+			<string>Veggie Wrap</string>
+			<key>priceTwo</key>
+			<string>$12.00</string>
+			<key>descTwo</key>
+			<string>dfsfsdfsd</string>
+			<key>optionThree</key>
+			<string>Grilled Chicken Wrap</string>
+			<key>priceThree</key>
+			<string>$10.00</string>
+			<key>descThree</key>
+			<string>sdfdsfdf</string>
+			<key>optionFour</key>
+			<string>Curry Chicken Wrap</string>
+			<key>priceFour</key>
+			<string>$12.00</string>
+			<key>descFour</key>
+			<string>dsfdfsd</string>
+			<key>optionFive</key>
+			<string>Special Wraps</string>
+			<key>priceFive</key>
+			<string>$15.00</string>
+			<key>descFive</key>
+			<string>dfdfsdsdf</string>
 		</dict>
 		<dict>
-			<key>itemName</key>
-			<string>Spaghetti</string>
-			<key>itemPrice</key>
-			<string>$7.99</string>
+			<key>menuItem</key>
+			<string>Rubbish Plates</string>
+			<key>image</key>
+			<string>rubbish.jpg</string>
+			<key>optionOne</key>
+			<string>Jerk Chicken Rubbish Plate</string>
+			<key>priceOne</key>
+			<string>$18.00</string>
+			<key>descOne</key>
+			<string>sdfsdfsdf</string>
+			<key>optionTwo</key>
+			<string>Veggie Rubbish Plate</string>
+			<key>priceTwo</key>
+			<string>$18.00</string>
+			<key>descTwo</key>
+			<string>sdfsdfsdf</string>
+			<key>optionThree</key>
+			<string>Grilled Chicken Rubbish Plate</string>
+			<key>priceThree</key>
+			<string>$15.00</string>
+			<key>descThree</key>
+			<string>fdsfsdf</string>
+			<key>optionFour</key>
+			<string>Curry Chicken Rubbish Plate</string>
+			<key>priceFour</key>
+			<string>$18.00</string>
+			<key>descFour</key>
+			<string>dfffeefdscx</string>
+			<key>optionFive</key>
+			<string>Special Rubbish Plates</string>
+			<key>priceFive</key>
+			<string>$21.00</string>
+			<key>descFive</key>
+			<string>sdfsddf</string>
+		</dict>
+		<dict>
+			<key>menuItem</key>
+			<string>Salads</string>
+			<key>image</key>
+			<string>salads.jpg</string>
+			<key>optionOne</key>
+			<string>Jerk Chicken Salad</string>
+			<key>priceOne</key>
+			<string>$15.00</string>
+			<key>descOne</key>
+			<string>sdfsdfsdf</string>
+			<key>optionTwo</key>
+			<string>Veggie Salad</string>
+			<key>priceTwo</key>
+			<string>$15.00</string>
+			<key>descTwo</key>
+			<string>sdfsdfsdf</string>
+			<key>optionThree</key>
+			<string>Grilled Chicken Salad</string>
+			<key>priceThree</key>
+			<string>$12.00</string>
+			<key>descThree</key>
+			<string>fdsfsdf</string>
+			<key>optionFour</key>
+			<string>Curry Chicken Salad</string>
+			<key>priceFour</key>
+			<string>$15.00</string>
+			<key>descFour</key>
+			<string>dfffeefdscx</string>
+			<key>optionFive</key>
+			<string>Special Salads</string>
+			<key>priceFive</key>
+			<string>$16.00</string>
+			<key>descFive</key>
+			<string>sdfsddf</string>
+		</dict>
+		<dict>
+			<key>menuItem</key>
+			<string>Dinners</string>
+			<key>image</key>
+			<string>dinner.jpg</string>
+			<key>optionOne</key>
+			<string>Jerk Chicken Dinner</string>
+			<key>priceOne</key>
+			<string>$18.00</string>
+			<key>descOne</key>
+			<string>sdfsdfsdf</string>
+			<key>optionTwo</key>
+			<string>Veggie Dinner</string>
+			<key>priceTwo</key>
+			<string>$20.00</string>
+			<key>descTwo</key>
+			<string>sdfsdfsdf</string>
+			<key>optionThree</key>
+			<string>Grilled Chicken Dinner</string>
+			<key>priceThree</key>
+			<string>$15.00</string>
+			<key>descThree</key>
+			<string>fdsfsdf</string>
+			<key>optionFour</key>
+			<string>Curry Chicken Dinner</string>
+			<key>priceFour</key>
+			<string>$18.00</string>
+			<key>descFour</key>
+			<string>dfffeefdscx</string>
+			<key>optionFive</key>
+			<string>Special Dinners</string>
+			<key>priceFive</key>
+			<string>$20.00</string>
+			<key>descFive</key>
+			<string>sdfsddf</string>
+		</dict>
+		<dict>
+			<key>menuItem</key>
+			<string>Specials</string>
+			<key>image</key>
+			<string>special.jpg</string>
+			<key>optionOne</key>
+			<string>Callaloo</string>
+			<key>priceOne</key>
+			<string>$20.00</string>
+			<key>descOne</key>
+			<string>sdfsdfsdf</string>
+			<key>optionTwo</key>
+			<string>Ackee and Saltfish</string>
+			<key>priceTwo</key>
+			<string>$23.00</string>
+			<key>descTwo</key>
+			<string>sdfsdfsdf</string>
+			<key>optionThree</key>
+			<string>Steamed Okra</string>
+			<key>priceThree</key>
+			<string>$20.00</string>
+			<key>descThree</key>
+			<string>fdsfsdf</string>
+			<key>optionFour</key>
+			<string>Seafood</string>
+			<key>priceFour</key>
+			<string>$20+</string>
+			<key>descFour</key>
+			<string>dfffeefdscx</string>
+			<key>optionFive</key>
+			<string>Oxtail</string>
+			<key>priceFive</key>
+			<string>$20.00</string>
+			<key>descFive</key>
+			<string>sdfsddf</string>
+		</dict>
+		<dict>
+			<key>menuItem</key>
+			<string>Sides</string>
+			<key>image</key>
+			<string>side.jpg</string>
+			<key>optionOne</key>
+			<string>Rice and Peas</string>
+			<key>priceOne</key>
+			<string>$5.00</string>
+			<key>descOne</key>
+			<string>sdfsdfsdf</string>
+			<key>optionTwo</key>
+			<string>Soup</string>
+			<key>priceTwo</key>
+			<string>$7.00</string>
+			<key>descTwo</key>
+			<string>sdfsdfsdf</string>
+			<key>optionThree</key>
+			<string>Plantains</string>
+			<key>priceThree</key>
+			<string>$6.00</string>
+			<key>descThree</key>
+			<string>fdsfsdf</string>
+			<key>optionFour</key>
+			<string>Steamed Cabbage</string>
+			<key>priceFour</key>
+			<string>$5.00</string>
+			<key>descFour</key>
+			<string>dfffeefdscx</string>
+			<key>optionFive</key>
+			<string>House Salad</string>
+			<key>priceFive</key>
+			<string>$5.00</string>
+			<key>descFive</key>
+			<string>sdfsddf</string>
+		</dict>
+		<dict>
+			<key>menuItem</key>
+			<string>Beverages</string>
+			<key>image</key>
+			<string>drink.jpg</string>
+			<key>optionOne</key>
+			<string>Island Beverages</string>
+			<key>priceOne</key>
+			<string>$5.00</string>
+			<key>descOne</key>
+			<string>sdfsdfsdf</string>
+			<key>optionTwo</key>
+			<string>Pepsi Products</string>
+			<key>priceTwo</key>
+			<string>$3.00</string>
+			<key>descTwo</key>
+			<string>sdfsdfsdf</string>
+			<key>optionThree</key>
+			<string>Water</string>
+			<key>priceThree</key>
+			<string>$2.00</string>
+			<key>descThree</key>
+			<string>fdsfsdf</string>
+			<key>optionFour</key>
+			<string>Ting</string>
+			<key>priceFour</key>
+			<string>$4.00</string>
+			<key>descFour</key>
+			<string>dfffeefdscx</string>
+			<key>optionFive</key>
+			<string>Smoothies</string>
+			<key>priceFive</key>
+			<string>$7.00</string>
+			<key>descFive</key>
+			<string>sdfsddf</string>
 		</dict>
 	</array>
 </dict>

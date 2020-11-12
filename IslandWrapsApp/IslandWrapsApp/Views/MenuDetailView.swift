@@ -18,40 +18,54 @@ struct MenuDetailView: View {
     var body: some View {
         // form
         Form {
-            // Item Name
-            Section(header: Text("Item Name")
+            // Header with image and title
+            Section() {
+                Image("\(menu.image)")
+                Text("\(menu.menuItem)")
+            }
+            // Available Items
+            Section(header: Text("Available Options")
                         .fontWeight(.heavy)
                         .foregroundColor(.blue)) {
-                Button("\(menu.itemName)", action: {
-                    showStateInfo.toggle()
-
-                })
-                
-                .foregroundColor(.black)
-                .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                .sheet(isPresented: $showNameInfo, content: {
-                        Text("\(menu.itemName)")
-                    })
+                Text("\(menu.optionOne)")
+                Text("\(menu.priceOne)")
+                Text("\(menu.descOne)")
             }
-            // Item Price
-            Section(header: Text("Item Price")
-                        .fontWeight(.heavy)
-                        .foregroundColor(.blue)) {
-                Button("\(menu.itemPrice)", action: {
-                    showStateInfo.toggle()
-
-                })
-                .foregroundColor(.black)
-                .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                .sheet(isPresented: $showStateInfo, content: {
-                        Text("\(menu.itemPrice)")
-                    })
-            }
+            .foregroundColor(.black)
+            .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
             
-                .foregroundColor(.black)
-                .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+            Section() {
+                Text("\(menu.optionTwo)")
+                Text("\(menu.priceTwo)")
+                Text("\(menu.descTwo)")
+            }
+            .foregroundColor(.black)
+            .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+            
+            Section() {
+                Text("\(menu.optionThree)")
+                Text("\(menu.priceThree)")
+                Text("\(menu.descThree)")
+            }
+            .foregroundColor(.black)
+            .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+            
+            Section() {
+                Text("\(menu.optionFour)")
+                Text("\(menu.priceFour)")
+                Text("\(menu.descFour)")
+            }
+            .foregroundColor(.black)
+            .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+            
+            Section() {
+                Text("\(menu.optionFive)")
+                Text("\(menu.priceFive)")
+                Text("\(menu.descFive)")
+            }
+            .foregroundColor(.black)
+            .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
         
-            //} // Section
         } // form
         .navigationBarTitle("", displayMode: .inline)
     } // body
