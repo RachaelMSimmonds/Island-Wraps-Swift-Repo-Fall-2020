@@ -1549,7 +1549,7 @@
 			<key>menuItem</key>
 			<string>Wraps</string>
 			<key>image</key>
-			<string>wraps.jpg</string>
+			<string>wraps</string>
 			<key>optionOne</key>
 			<string>Jerk Chicken Wrap</string>
 			<key>priceOne</key>
@@ -1585,7 +1585,7 @@
 			<key>menuItem</key>
 			<string>Rubbish Plates</string>
 			<key>image</key>
-			<string>rubbish.jpg</string>
+			<string>rubbish</string>
 			<key>optionOne</key>
 			<string>Jerk Chicken Rubbish Plate</string>
 			<key>priceOne</key>
@@ -1621,7 +1621,7 @@
 			<key>menuItem</key>
 			<string>Salads</string>
 			<key>image</key>
-			<string>salads.jpg</string>
+			<string>salads</string>
 			<key>optionOne</key>
 			<string>Jerk Chicken Salad</string>
 			<key>priceOne</key>
@@ -1657,7 +1657,7 @@
 			<key>menuItem</key>
 			<string>Dinners</string>
 			<key>image</key>
-			<string>dinner.jpg</string>
+			<string>dinner</string>
 			<key>optionOne</key>
 			<string>Jerk Chicken Dinner</string>
 			<key>priceOne</key>
@@ -1693,7 +1693,7 @@
 			<key>menuItem</key>
 			<string>Specials</string>
 			<key>image</key>
-			<string>special.jpg</string>
+			<string>special</string>
 			<key>optionOne</key>
 			<string>Callaloo</string>
 			<key>priceOne</key>
@@ -1729,7 +1729,7 @@
 			<key>menuItem</key>
 			<string>Sides</string>
 			<key>image</key>
-			<string>side.jpg</string>
+			<string>side</string>
 			<key>optionOne</key>
 			<string>Rice and Peas</string>
 			<key>priceOne</key>
@@ -1765,7 +1765,7 @@
 			<key>menuItem</key>
 			<string>Beverages</string>
 			<key>image</key>
-			<string>drink.jpg</string>
+			<string>drink</string>
 			<key>optionOne</key>
 			<string>Island Beverages</string>
 			<key>priceOne</key>
