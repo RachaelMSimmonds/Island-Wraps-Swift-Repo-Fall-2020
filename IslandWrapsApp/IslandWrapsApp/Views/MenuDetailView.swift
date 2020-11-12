@@ -21,6 +21,8 @@ struct MenuDetailView: View {
             // Header with image and title
             Section() {
                 Image("\(menu.image)")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
                 Text("\(menu.menuItem)")
             }
             // Available Items
@@ -41,6 +43,7 @@ struct MenuDetailView: View {
             }
             .foregroundColor(.black)
             .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+        
             
             Section() {
                 Text("\(menu.optionThree)")
@@ -49,6 +52,7 @@ struct MenuDetailView: View {
             }
             .foregroundColor(.black)
             .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+
             
             Section() {
                 Text("\(menu.optionFour)")
@@ -57,6 +61,7 @@ struct MenuDetailView: View {
             }
             .foregroundColor(.black)
             .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+
             
             Section() {
                 Text("\(menu.optionFive)")
