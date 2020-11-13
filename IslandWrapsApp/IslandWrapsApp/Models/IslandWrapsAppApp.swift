@@ -14,8 +14,9 @@ struct IslandWrapsAppApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView().environmentObject(menus)
-            ContentView().environmentObject(events)
+            ContentView()
+                .environmentObject(menus)
+                .environmentObject(events)
 
         }
         
