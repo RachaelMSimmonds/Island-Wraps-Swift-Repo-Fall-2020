@@ -2,10 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>dataSource</key>
-	<string>http://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States</string>
-	<key>lastModified</key>
-	<date>2013-05-29T17:38:38Z</date>
 	<key>menu</key>
 	<array>
 		<dict>
@@ -270,9 +266,9 @@ Rochester, New York</string>
 			<key>eventName</key>
 			<string>Monroe County Lilac Festival</string>
 			<key>latitude</key>
-			<string>43.1300</string>
+			<real>43.13</real>
 			<key>longitude</key>
-			<string>-77.6050</string>
+			<real>-77.605</real>
 		</dict>
 		<dict>
 			<key>eventAddress</key>
@@ -280,9 +276,9 @@ Rochester, New York</string>
 			<key>eventName</key>
 			<string>Fairport Canal Days</string>
 			<key>latitude</key>
-			<string>43.098675</string>
+			<real>43.098675</real>
 			<key>longitude</key>
-			<string>-77.441940</string>
+			<real>-77.44194</real>
 		</dict>
 		<dict>
 			<key>eventAddress</key>
@@ -290,9 +286,9 @@ Rochester, New York</string>
 			<key>eventName</key>
 			<string>Albion Strawberry Festival</string>
 			<key>latitude</key>
-			<string>43.246449</string>
+			<real>43.246449</real>
 			<key>longitude</key>
-			<string>-78.193634</string>
+			<real>-78.193634</real>
 		</dict>
 		<dict>
 			<key>eventAddress</key>
@@ -300,9 +296,9 @@ Rochester, New York</string>
 			<key>eventName</key>
 			<string>The Oswego HarborFest</string>
 			<key>latitude</key>
-			<string>43.46259140</string>
+			<real>43.4625914</real>
 			<key>longitude</key>
-			<string>-76.50951290</string>
+			<real>-76.5095129</real>
 		</dict>
 		<dict>
 			<key>eventAddress</key>
@@ -311,9 +307,9 @@ Rochester, New York</string>
 			<key>eventName</key>
 			<string>The Annual County Peach Festival</string>
 			<key>latitude</key>
-			<string>43.172883</string>
+			<real>43.172883</real>
 			<key>longitude</key>
-			<string>-79.042783</string>
+			<real>-79.042783</real>
 		</dict>
 		<dict>
 			<key>eventAddress</key>
@@ -321,9 +317,9 @@ Rochester, New York</string>
 			<key>eventName</key>
 			<string>The Purple Painted Lady Festival/Barn Sale</string>
 			<key>latitude</key>
-			<string>43.041042</string>
+			<real>43.041042</real>
 			<key>longitude</key>
-			<string>-77.258939</string>
+			<real>-77.258939</real>
 		</dict>
 	</array>
 </dict>

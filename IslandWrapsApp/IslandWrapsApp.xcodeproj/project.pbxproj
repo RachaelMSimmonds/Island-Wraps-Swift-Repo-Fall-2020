@@ -12,6 +12,11 @@
 		54300DCF255C7D8900CB1E15 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54300DCE255C7D8900CB1E15 /* Menu.swift */; };
 		54300DD1255C81F700CB1E15 /* Menus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54300DD0255C81F700CB1E15 /* Menus.swift */; };
 		54300DD3255C82D500CB1E15 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54300DD2255C82D500CB1E15 /* data.plist */; };
+		54300DD9255D87A600CB1E15 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54300DD8255D87A600CB1E15 /* MapView.swift */; };
+		54300DDB255D882F00CB1E15 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54300DDA255D882F00CB1E15 /* LocationManager.swift */; };
+		54300DDD255D88BF00CB1E15 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54300DDC255D88BF00CB1E15 /* Event.swift */; };
+		54300DDF255D88C900CB1E15 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54300DDE255D88C900CB1E15 /* Events.swift */; };
+		54BDF8D8255DDF5C00BFE668 /* MyMapTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BDF8D7255DDF5B00BFE668 /* MyMapTab.swift */; };
 		C8099A40252FBB2F001B2A6A /* IslandWrapsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8099A3F252FBB2F001B2A6A /* IslandWrapsAppApp.swift */; };
 		C8099A42252FBB2F001B2A6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8099A41252FBB2F001B2A6A /* ContentView.swift */; };
 		C8099A44252FBB30001B2A6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8099A43252FBB30001B2A6A /* Assets.xcassets */; };
@@ -24,6 +29,11 @@
 		54300DCE255C7D8900CB1E15 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		54300DD0255C81F700CB1E15 /* Menus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menus.swift; sourceTree = "<group>"; };
 		54300DD2255C82D500CB1E15 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		54300DD8255D87A600CB1E15 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		54300DDA255D882F00CB1E15 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		54300DDC255D88BF00CB1E15 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		54300DDE255D88C900CB1E15 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		54BDF8D7255DDF5B00BFE668 /* MyMapTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMapTab.swift; sourceTree = "<group>"; };
 		C8099A3C252FBB2F001B2A6A /* IslandWrapsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IslandWrapsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8099A3F252FBB2F001B2A6A /* IslandWrapsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandWrapsAppApp.swift; sourceTree = "<group>"; };
 		C8099A41252FBB2F001B2A6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 				C8099A41252FBB2F001B2A6A /* ContentView.swift */,
 				54300DC9255C7BBE00CB1E15 /* MenuListView.swift */,
 				54300DCB255C7BC800CB1E15 /* MenuDetailView.swift */,
+				54300DD8255D87A600CB1E15 /* MapView.swift */,
+				54BDF8D7255DDF5B00BFE668 /* MyMapTab.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -59,6 +71,9 @@
 				C8099A3F252FBB2F001B2A6A /* IslandWrapsAppApp.swift */,
 				54300DCE255C7D8900CB1E15 /* Menu.swift */,
 				54300DD0255C81F700CB1E15 /* Menus.swift */,
+				54300DDA255D882F00CB1E15 /* LocationManager.swift */,
+				54300DDC255D88BF00CB1E15 /* Event.swift */,
+				54300DDE255D88C900CB1E15 /* Events.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -170,9 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54300DD9255D87A600CB1E15 /* MapView.swift in Sources */,
+				54300DDD255D88BF00CB1E15 /* Event.swift in Sources */,
+				54BDF8D8255DDF5C00BFE668 /* MyMapTab.swift in Sources */,
 				54300DCA255C7BBE00CB1E15 /* MenuListView.swift in Sources */,
 				C8099A42252FBB2F001B2A6A /* ContentView.swift in Sources */,
+				54300DDF255D88C900CB1E15 /* Events.swift in Sources */,
 				54300DD1255C81F700CB1E15 /* Menus.swift in Sources */,
+				54300DDB255D882F00CB1E15 /* LocationManager.swift in Sources */,
 				54300DCC255C7BC800CB1E15 /* MenuDetailView.swift in Sources */,
 				C8099A40252FBB2F001B2A6A /* IslandWrapsAppApp.swift in Sources */,
 				54300DCF255C7D8900CB1E15 /* Menu.swift in Sources */,
