@@ -10,11 +10,15 @@ import SwiftUI
 @main
 struct IslandWrapsAppApp: App {
     var menus = Menus()
+    var events = Events()
     
     var body: some Scene {
         WindowGroup {
             ContentView().environmentObject(menus)
+            ContentView().environmentObject(events)
 
         }
+        
     }
+    
 }

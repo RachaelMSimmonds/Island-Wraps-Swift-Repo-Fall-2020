@@ -18,10 +18,17 @@ enum Tabs: Hashable {
 
 struct ContentView: View {
     @EnvironmentObject var menus: Menus
+    @EnvironmentObject var events: Events
     @State private var selectedTab = Tabs.home
     @State private var counterNumber = 0
     
     var body: some View {
+        
+        NavigationView {
+            VStack {
+
+            } // VStack
+        } // NavigationView
         
         TabView(selection: $selectedTab) {
             
@@ -40,7 +47,7 @@ struct ContentView: View {
             }
             .tag(Tabs.order)
             
-            Text("Hi")
+            MyMapTab()
             .tabItem {
                 Image(systemName: "calendar")
                     Text("Events")
@@ -78,6 +85,9 @@ extension ContentView {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().environmentObject(Menus())
+            ContentView().environmentObject(Events())
+            ContentView().environmentObject(Menus())
+
+
     }
 }
