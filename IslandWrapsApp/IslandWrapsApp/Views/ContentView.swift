@@ -24,12 +24,6 @@ struct ContentView: View {
     
     var body: some View {
         
-        NavigationView {
-            VStack {
-
-            } // VStack
-        } // NavigationView
-        
         TabView(selection: $selectedTab) {
             
             //MapView()
@@ -85,9 +79,9 @@ extension ContentView {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-            ContentView().environmentObject(Events())
-            ContentView().environmentObject(Menus())
-
+        ContentView()
+            .environmentObject(Events())
+            .environmentObject(Menus())
 
     }
 }
