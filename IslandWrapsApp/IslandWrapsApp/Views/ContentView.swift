@@ -27,8 +27,7 @@ struct ContentView: View {
         
         TabView(selection: $selectedTab) {
             
-            //MapView()
-            Text("Hi")
+            HomeView()
             .tabItem {
                 Image(systemName: "house")
                     Text("Home")
@@ -49,16 +48,14 @@ struct ContentView: View {
             }
             .tag(Tabs.events)
             
-            //AboutView()
-            Text("Hi")
+            SocialView()
             .tabItem {
                 Image(systemName: "text.bubble")
                     Text("Social")
             }
             .tag(Tabs.social)
             
-            //AboutView()
-            Text("Hi")
+            ContactView()
             .tabItem {
                 Image(systemName: "envelope")
                     Text("Contact")

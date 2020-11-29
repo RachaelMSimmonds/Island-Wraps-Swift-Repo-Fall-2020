@@ -58,14 +58,14 @@ struct MenuRow: View {
     var m: Menu
     
     var body: some View {
-        
-        VStack(alignment: .leading) {
-            Text("\(m.menuItem)")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-                .foregroundColor(.green)
-                .font(.title)
-        }
+            VStack(alignment: .leading) {
+                Text("\(m.menuItem)")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundColor(.green)
+                    .font(.title)
+            }
     }
+    
 }
 

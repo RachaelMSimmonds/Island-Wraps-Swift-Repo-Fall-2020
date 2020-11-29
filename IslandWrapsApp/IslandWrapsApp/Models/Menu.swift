@@ -10,6 +10,17 @@ import MapKit
 
 class Menu: NSObject, Identifiable {
     
+    // ItemData
+    
+    @Published var menus : [Menu] = []
+    @Published var filtered : [Menu] = []
+    
+    // Cart Data
+    
+    @Published var cartItems : [Cart] = []
+    
+    
+    
     var menuItem : String = ""
     var image : String = ""
     
@@ -33,6 +44,9 @@ class Menu: NSObject, Identifiable {
     var priceFive : String = ""
     var descFive : String = ""
     var quantity : Int = 0
+    var id : String = ""
+    // To identify whether it is added to the cart
+    var isAdded : Bool = false
 
 
 //designated initializers
@@ -41,7 +55,7 @@ class Menu: NSObject, Identifiable {
          optionTwo: String, priceTwo: String, descTwo: String,
          optionThree: String, priceThree: String, descThree: String,
          optionFour: String, priceFour: String, descFour: String,
-         optionFive: String, priceFive: String, descFive: String, quantity: Int) {
+         optionFive: String, priceFive: String, descFive: String, quantity: Int, id: String, isAdded: Bool) {
         super.init()
         self.menuItem = menuItem
         self.image = image
@@ -67,6 +81,8 @@ class Menu: NSObject, Identifiable {
         self.descFive = descFive
         
         self.quantity = quantity
+        self.id = id
+        self.isAdded = isAdded
     
     
 
@@ -84,7 +100,7 @@ class Menu: NSObject, Identifiable {
                  optionTwo: " unknown", priceTwo: " unknown", descTwo: " unknown",
                  optionThree: " unknown", priceThree: " unknown", descThree: " unknown",
                  optionFour: " unknown", priceFour: " unknown", descFour: " unknown",
-                 optionFive: " unknown", priceFive: " unknown", descFive: " unknown", quantity: 0)
+                 optionFive: " unknown", priceFive: " unknown", descFive: " unknown", quantity: 0, id: " unknown", isAdded: false)
     }
     // MenuItem and Image
     func getmenuItem() -> String {
@@ -200,11 +216,24 @@ class Menu: NSObject, Identifiable {
         descFive = d5
     }
     
+    // Extra functions
     func getQuantity() -> Int {
         quantity
     }
     func set(q: Int) {
         quantity = q
+    }
+    func getId() -> String {
+        id
+    }
+    func set(ID: String) {
+        id = ID
+    }
+    func getIsAdded() -> Bool {
+        true
+    }
+    func set(added: Bool) {
+        isAdded = added
     }
 
 }//end Menu class
@@ -245,14 +274,15 @@ do {
         let descFive = dict["descFive"]! as! String
         
         let quantity = dict["quantity"]! as! Int
-
+        let id = dict["id"]! as! String
+        let isAdded = dict["isAdded"]! as! Bool
 
         let m = Menu(menuItem: menuItem, image: image,
                      optionOne: optionOne, priceOne: priceOne, descOne: descOne,
                      optionTwo: optionTwo, priceTwo: priceTwo, descTwo: descTwo,
                      optionThree: optionThree, priceThree: priceThree, descThree: descThree,
                      optionFour: optionFour, priceFour: priceFour, descFour: descFour,
-                     optionFive: optionFive, priceFive: priceFive, descFive: descFive, quantity: quantity)
+                     optionFive: optionFive, priceFive: priceFive, descFive: descFive, quantity: quantity, id: id, isAdded: isAdded)
         tempMenu.append(m)
     }
 
@@ -268,5 +298,38 @@ do {
     }
     return []
   }//func
+    
+    // Add items to cart function
+    
+    func addToCart(menuItem: Menu) {
+        // Checking if it is added to the cart
+        
+        self.menus[getIndex(menuItem: menuItem, isCartIndex: false)].isAdded = !menuItem.isAdded
+        // Updating filtered array, also for search bar results
+        self.filtered[getIndex(menuItem: menuItem, isCartIndex: false)].isAdded = !menuItem.isAdded
+        
+        if menuItem.isAdded {
+            
+            // Removing from list
+            return
+        }
+        // else add it
+        
+        self.cartItems.append(Cart(menuItem: menuItem, quantity: 1))
+    } // End of addToCart
+    
+    func getIndex(menuItem: Menu, isCartIndex: Bool)->Int{
+        let index = self.cartItems.firstIndex { (menuItem0) -> Bool in
+            
+            return menuItem.id == menuItem0.id
+        } ?? 0
+        
+        let cartIndex = self.cartItems.firstIndex { (menuItem0) -> Bool in
+            
+            return menuItem.id == menuItem0.menuItem.id
+        } ?? 0
+        
+        return isCartIndex ? cartIndex : index
+    } // End of getIndex
 }//extension
 
