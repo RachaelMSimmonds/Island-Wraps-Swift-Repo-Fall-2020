@@ -48,6 +48,7 @@ class Menus: ObservableObject {
                     let optionFive = dict["optionFive"]! as! String
                     let priceFive = dict["priceFive"]! as! String
                     let descFive = dict["descFive"]! as! String
+                    let quantity = dict["quantity"]! as! Int
                     
                      
                     let lm = Menu(menuItem: menuItem, image: image,
@@ -55,7 +56,7 @@ class Menus: ObservableObject {
                                   optionTwo: optionTwo, priceTwo: priceTwo, descTwo: descTwo,
                                   optionThree: optionThree, priceThree: priceThree, descThree: descThree,
                                   optionFour: optionFour, priceFour: priceFour, descFour: descFour,
-                                  optionFive: optionFive, priceFive: priceFive, descFive: descFive)
+                                  optionFive: optionFive, priceFive: priceFive, descFive: descFive, quantity: quantity)
                      
                      tempMenu.append(lm)
                  }

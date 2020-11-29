@@ -14,6 +14,7 @@ enum Tabs: Hashable {
     case events
     case social
     case contact
+  //  case cart
 }
 
 struct ContentView: View {
@@ -63,6 +64,12 @@ struct ContentView: View {
                     Text("Contact")
             }
             .tag(Tabs.contact)
+            
+//            CartView()
+//                .tabItem {
+//                    Image(systemName: "cart")
+//                    Text("Cart")
+//                }
     } // End of Tab View
     }//body
 }//ContentView

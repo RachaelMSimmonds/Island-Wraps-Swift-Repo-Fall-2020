@@ -37,7 +37,7 @@ class Events: ObservableObject {
                     let latitude = dict["latitude"]! as! Double
                     let longitude = dict["longitude"]! as! Double
                      
-                     let location = CLLocation(latitude: latitude, longitude: longitude)
+                    let location = CLLocation(latitude: latitude, longitude: longitude)
                      
                     let e = Event(eventName: eventName, eventAddress: eventAddress, location: location)
 

@@ -19,8 +19,12 @@
 		54BDF8D8255DDF5C00BFE668 /* MyMapTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BDF8D7255DDF5B00BFE668 /* MyMapTab.swift */; };
 		C8099A40252FBB2F001B2A6A /* IslandWrapsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8099A3F252FBB2F001B2A6A /* IslandWrapsAppApp.swift */; };
 		C8099A42252FBB2F001B2A6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8099A41252FBB2F001B2A6A /* ContentView.swift */; };
-		C8099A44252FBB30001B2A6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8099A43252FBB30001B2A6A /* Assets.xcassets */; };
 		C8099A47252FBB30001B2A6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8099A46252FBB30001B2A6A /* Preview Assets.xcassets */; };
+		C868C2F5255F57FD009A4B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8099A43252FBB30001B2A6A /* Assets.xcassets */; };
+		C868C2F925645BDD009A4B56 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C868C2F825645BDD009A4B56 /* CartView.swift */; };
+		C8A068C32573631E004DD9A7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A068C22573631E004DD9A7 /* HomeView.swift */; };
+		C8A068C52573632E004DD9A7 /* SocialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A068C42573632E004DD9A7 /* SocialView.swift */; };
+		C8A068C72573633B004DD9A7 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A068C62573633B004DD9A7 /* ContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		C8099A43252FBB30001B2A6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8099A46252FBB30001B2A6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C8099A48252FBB30001B2A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C868C2F825645BDD009A4B56 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		C8A068C22573631E004DD9A7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C8A068C42573632E004DD9A7 /* SocialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialView.swift; sourceTree = "<group>"; };
+		C8A068C62573633B004DD9A7 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,10 @@
 				54300DCB255C7BC800CB1E15 /* MenuDetailView.swift */,
 				54300DD8255D87A600CB1E15 /* MapView.swift */,
 				54BDF8D7255DDF5B00BFE668 /* MyMapTab.swift */,
+				C868C2F825645BDD009A4B56 /* CartView.swift */,
+				C8A068C22573631E004DD9A7 /* HomeView.swift */,
+				C8A068C42573632E004DD9A7 /* SocialView.swift */,
+				C8A068C62573633B004DD9A7 /* ContactView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -68,7 +80,6 @@
 		54300DCD255C7C0F00CB1E15 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C8099A3F252FBB2F001B2A6A /* IslandWrapsAppApp.swift */,
 				54300DCE255C7D8900CB1E15 /* Menu.swift */,
 				54300DD0255C81F700CB1E15 /* Menus.swift */,
 				54300DDA255D882F00CB1E15 /* LocationManager.swift */,
@@ -99,6 +110,7 @@
 			children = (
 				54300DC6255C7B2C00CB1E15 /* Views */,
 				54300DCD255C7C0F00CB1E15 /* Models */,
+				C8099A3F252FBB2F001B2A6A /* IslandWrapsAppApp.swift */,
 				C8099A43252FBB30001B2A6A /* Assets.xcassets */,
 				C8099A48252FBB30001B2A6A /* Info.plist */,
 				54300DD2255C82D500CB1E15 /* data.plist */,
@@ -173,8 +185,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				54300DD3255C82D500CB1E15 /* data.plist in Resources */,
+				C868C2F5255F57FD009A4B56 /* Assets.xcassets in Resources */,
 				C8099A47252FBB30001B2A6A /* Preview Assets.xcassets in Resources */,
-				C8099A44252FBB30001B2A6A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,15 +199,19 @@
 			files = (
 				54300DD9255D87A600CB1E15 /* MapView.swift in Sources */,
 				54300DDD255D88BF00CB1E15 /* Event.swift in Sources */,
+				C8A068C32573631E004DD9A7 /* HomeView.swift in Sources */,
 				54BDF8D8255DDF5C00BFE668 /* MyMapTab.swift in Sources */,
 				54300DCA255C7BBE00CB1E15 /* MenuListView.swift in Sources */,
 				C8099A42252FBB2F001B2A6A /* ContentView.swift in Sources */,
 				54300DDF255D88C900CB1E15 /* Events.swift in Sources */,
+				C868C2F925645BDD009A4B56 /* CartView.swift in Sources */,
 				54300DD1255C81F700CB1E15 /* Menus.swift in Sources */,
 				54300DDB255D882F00CB1E15 /* LocationManager.swift in Sources */,
 				54300DCC255C7BC800CB1E15 /* MenuDetailView.swift in Sources */,
 				C8099A40252FBB2F001B2A6A /* IslandWrapsAppApp.swift in Sources */,
 				54300DCF255C7D8900CB1E15 /* Menu.swift in Sources */,
+				C8A068C72573633B004DD9A7 /* ContactView.swift in Sources */,
+				C8A068C52573632E004DD9A7 /* SocialView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
