@@ -13,7 +13,7 @@ struct MenuListView: View {
     
     init() {
         let navBarAppearance = UINavigationBarAppearance()
-        navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.systemRed, .font: UIFont(name: "ArialRoundedMTBold", size: 35)!]
+        navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.systemOrange, .font: UIFont(name: "ArialRoundedMTBold", size: 35)!]
         navBarAppearance.titleTextAttributes =  [.foregroundColor: UIColor.systemRed, .font: UIFont(name: "ArialRoundedMTBold", size: 20)!]
         navBarAppearance
             .setBackIndicatorImage(UIImage(systemName: "arrow.turn.up.left"), transitionMaskImage: UIImage(systemName: "arrow.turn.up.left"))
@@ -63,7 +63,7 @@ struct MenuRow: View {
             Text("\(m.menuItem)")
                 .font(.largeTitle)
                 .fontWeight(.bold)
-                .foregroundColor(.blue)
+                .foregroundColor(.green)
                 .font(.title)
         }
     }

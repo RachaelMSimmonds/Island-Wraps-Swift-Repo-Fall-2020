@@ -32,6 +32,7 @@ class Menu: NSObject, Identifiable {
     var optionFive : String = ""
     var priceFive : String = ""
     var descFive : String = ""
+    var quantity : Int = 0
 
 
 //designated initializers
@@ -40,7 +41,7 @@ class Menu: NSObject, Identifiable {
          optionTwo: String, priceTwo: String, descTwo: String,
          optionThree: String, priceThree: String, descThree: String,
          optionFour: String, priceFour: String, descFour: String,
-         optionFive: String, priceFive: String, descFive: String) {
+         optionFive: String, priceFive: String, descFive: String, quantity: Int) {
         super.init()
         self.menuItem = menuItem
         self.image = image
@@ -64,6 +65,8 @@ class Menu: NSObject, Identifiable {
         self.optionFive = optionFive
         self.priceFive = priceFive
         self.descFive = descFive
+        
+        self.quantity = quantity
     
     
 
@@ -81,7 +84,7 @@ class Menu: NSObject, Identifiable {
                  optionTwo: " unknown", priceTwo: " unknown", descTwo: " unknown",
                  optionThree: " unknown", priceThree: " unknown", descThree: " unknown",
                  optionFour: " unknown", priceFour: " unknown", descFour: " unknown",
-                 optionFive: " unknown", priceFive: " unknown", descFive: " unknown")
+                 optionFive: " unknown", priceFive: " unknown", descFive: " unknown", quantity: 0)
     }
     // MenuItem and Image
     func getmenuItem() -> String {
@@ -196,6 +199,13 @@ class Menu: NSObject, Identifiable {
     func set(d5: String) {
         descFive = d5
     }
+    
+    func getQuantity() -> Int {
+        quantity
+    }
+    func set(q: Int) {
+        quantity = q
+    }
 
 }//end Menu class
 
@@ -233,6 +243,8 @@ do {
         let optionFive = dict["optionFive"]! as! String
         let priceFive = dict["priceFive"]! as! String
         let descFive = dict["descFive"]! as! String
+        
+        let quantity = dict["quantity"]! as! Int
 
 
         let m = Menu(menuItem: menuItem, image: image,
@@ -240,7 +252,7 @@ do {
                      optionTwo: optionTwo, priceTwo: priceTwo, descTwo: descTwo,
                      optionThree: optionThree, priceThree: priceThree, descThree: descThree,
                      optionFour: optionFour, priceFour: priceFour, descFour: descFour,
-                     optionFive: optionFive, priceFive: priceFive, descFive: descFive)
+                     optionFive: optionFive, priceFive: priceFive, descFive: descFive, quantity: quantity)
         tempMenu.append(m)
     }
 

@@ -14,6 +14,8 @@ import CoreLocation
 struct MapView: UIViewRepresentable {
     
     @EnvironmentObject var events: Events
+    //@Binding var locationManager: CLLocationManager
+
     
     let mapView = MKMapView()
     
@@ -22,7 +24,7 @@ struct MapView: UIViewRepresentable {
 //        if CLLocationManager.locationServicesEnabled() {
 //            locationManager.requestWhenInUseAuthorization()
 //        }
-//        locationManager.delegate = context.coordinator
+//        locationManager.delegate = context.coordinator as! CLLocationManagerDelegate
         mapView.delegate = context.coordinator
         
         return mapView
@@ -148,6 +150,6 @@ struct MapView: UIViewRepresentable {
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+        Text("Hello, World!")
     }
 }
