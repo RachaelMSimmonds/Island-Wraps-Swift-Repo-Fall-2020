@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CartView: View {
-    @StateObject var cartData = Menus()
+   
     var body: some View {
         VStack {
             
@@ -17,14 +17,18 @@ struct CartView: View {
                     
                     Image(systemName: "chavron.left")
                         .font(.system(size: 20, weight: .heavy))
+                        .foregroundColor(.black)
                 }
                 
                 Text("My Cart")
                     .font(.title)
                     .fontWeight(.heavy)
                     .foregroundColor(.black)
+                
+                Spacer()
             } // End of HStack
             .padding()
+            
             
            // Spacer(minLength: 0)
             
@@ -34,15 +38,9 @@ struct CartView: View {
 
             
         } // End of VStack
-        .background(Color("gray").ignoresSafeArea())
+        .background(Color.white.ignoresSafeArea())
     }
-    
-//    func getIndex(menuDetailView: MenuDetailView)->Int {
-//        return cartData.list.firstIndex { (list1) -> Bool in
-//            return menuDetailView.id == list1
-//
-//        }
-//    }
+
 }
 
 struct CartView_Previews: PreviewProvider {

@@ -17,6 +17,8 @@ struct MenuDetailView: View {
     @State var showMenuDetails: Bool = false
     @State private var count: Int = 0
     
+    
+    
     var body: some View {
 
         VStack(alignment: .trailing) {
@@ -75,7 +77,7 @@ struct MenuDetailView: View {
                             .shadow(color: Color.black.opacity(0.1), radius: 5, x: 0, y: 5)
                     } // End of plus button
                     
-                    Text("\(count)")
+                    Text("\(menu.quantity)")
                         .fontWeight(.heavy)
                         .foregroundColor(.black)
                         .background(Color.black.opacity(0.08))
@@ -96,7 +98,8 @@ struct MenuDetailView: View {
                     // add items to cart
                     Spacer(minLength: 0)
                     
-                    Button(action: {}) {
+                    Button(action: {
+                    }) {
                         
                         Text("Add to Cart")
                             .foregroundColor(.white)
@@ -382,6 +385,20 @@ struct MenuDetailView: View {
             .navigationBarTitle("", displayMode: .inline)
         } // End of Main VStack
     } // body
+    
+    func addToCartTapped() {
+        
+        // Get the currect product id
+        
+        // Add the product to the cart
+        
+        // Display a message to the ise that the item has been added
+        
+    }
+    
+    
+    
+    
 }
 
 struct MenuDetailView_Previews: PreviewProvider {

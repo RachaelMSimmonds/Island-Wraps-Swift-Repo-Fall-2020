@@ -25,6 +25,7 @@
 		C8A068C32573631E004DD9A7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A068C22573631E004DD9A7 /* HomeView.swift */; };
 		C8A068C52573632E004DD9A7 /* SocialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A068C42573632E004DD9A7 /* SocialView.swift */; };
 		C8A068C72573633B004DD9A7 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A068C62573633B004DD9A7 /* ContactView.swift */; };
+		C8A068C925742D36004DD9A7 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A068C825742D36004DD9A7 /* Cart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		C8A068C22573631E004DD9A7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C8A068C42573632E004DD9A7 /* SocialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialView.swift; sourceTree = "<group>"; };
 		C8A068C62573633B004DD9A7 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		C8A068C825742D36004DD9A7 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				54300DDA255D882F00CB1E15 /* LocationManager.swift */,
 				54300DDC255D88BF00CB1E15 /* Event.swift */,
 				54300DDE255D88C900CB1E15 /* Events.swift */,
+				C8A068C825742D36004DD9A7 /* Cart.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				54300DCF255C7D8900CB1E15 /* Menu.swift in Sources */,
 				C8A068C72573633B004DD9A7 /* ContactView.swift in Sources */,
 				C8A068C52573632E004DD9A7 /* SocialView.swift in Sources */,
+				C8A068C925742D36004DD9A7 /* Cart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

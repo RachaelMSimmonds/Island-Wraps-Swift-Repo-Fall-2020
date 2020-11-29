@@ -9,7 +9,27 @@ import SwiftUI
 
 struct ContactView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color.black
+                .edgesIgnoringSafeArea(.all)
+            
+            Image("water_mark")
+                .resizable()
+                .frame(width: 100, height: 100)
+                .offset(x: -140, y: -300)
+            Text("Island Wraps")
+                .font(.title)
+                .fontWeight(.bold)
+                .foregroundColor(.white)
+                .offset(x: 30, y: -300)
+            
+            Text("Contact Us Below!")
+                .font(.title)
+                .fontWeight(.bold)
+                .foregroundColor(.white)
+                .offset(x: 0, y: -150)
+
+        }
     }
 }
 

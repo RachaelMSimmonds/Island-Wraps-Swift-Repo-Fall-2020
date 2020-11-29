@@ -41,6 +41,10 @@
 			<string>Curabitur luctus tristique pretium. Mauris tempor posuere luctus. Mauris et fringilla orci. Aliquam sed erat dapibus, aliquet sem a, tincidunt quam. Maecenas sit amet ultrices nulla. Etiam non semper nisl. Fusce a nisl ac lacus maximus eleifend in ut nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porta dolor sed tellus luctus vehicula.</string>
 			<key>quantity</key>
 			<integer>0</integer>
+			<key>id</key>
+			<string>menuItem0</string>
+			<key>isAdded</key>
+			<false/>
 		</dict>
 		<dict>
 			<key>menuItem</key>
@@ -79,6 +83,10 @@
 			<string>Curabitur luctus tristique pretium. Mauris tempor posuere luctus. Mauris et fringilla orci. Aliquam sed erat dapibus, aliquet sem a, tincidunt quam. Maecenas sit amet ultrices nulla. Etiam non semper nisl. Fusce a nisl ac lacus maximus eleifend in ut nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porta dolor sed tellus luctus vehicula.</string>
 			<key>quantity</key>
 			<integer>0</integer>
+			<key>id</key>
+			<string>menuItem1</string>
+			<key>isAdded</key>
+			<false/>
 		</dict>
 		<dict>
 			<key>menuItem</key>
@@ -117,6 +125,10 @@
 			<string>Curabitur luctus tristique pretium. Mauris tempor posuere luctus. Mauris et fringilla orci. Aliquam sed erat dapibus, aliquet sem a, tincidunt quam. Maecenas sit amet ultrices nulla. Etiam non semper nisl. Fusce a nisl ac lacus maximus eleifend in ut nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porta dolor sed tellus luctus vehicula.</string>
 			<key>quantity</key>
 			<integer>0</integer>
+			<key>id</key>
+			<string>menuItem2</string>
+			<key>isAdded</key>
+			<false/>
 		</dict>
 		<dict>
 			<key>menuItem</key>
@@ -155,6 +167,10 @@
 			<string>Curabitur luctus tristique pretium. Mauris tempor posuere luctus. Mauris et fringilla orci. Aliquam sed erat dapibus, aliquet sem a, tincidunt quam. Maecenas sit amet ultrices nulla. Etiam non semper nisl. Fusce a nisl ac lacus maximus eleifend in ut nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porta dolor sed tellus luctus vehicula.</string>
 			<key>quantity</key>
 			<integer>0</integer>
+			<key>id</key>
+			<string>menuItem3</string>
+			<key>isAdded</key>
+			<false/>
 		</dict>
 		<dict>
 			<key>menuItem</key>
@@ -193,6 +209,10 @@
 			<string>Curabitur luctus tristique pretium. Mauris tempor posuere luctus. Mauris et fringilla orci. Aliquam sed erat dapibus, aliquet sem a, tincidunt quam. Maecenas sit amet ultrices nulla. Etiam non semper nisl. Fusce a nisl ac lacus maximus eleifend in ut nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porta dolor sed tellus luctus vehicula.</string>
 			<key>quantity</key>
 			<integer>0</integer>
+			<key>id</key>
+			<string>menuItem4</string>
+			<key>isAdded</key>
+			<false/>
 		</dict>
 		<dict>
 			<key>menuItem</key>
@@ -231,6 +251,10 @@
 			<string>Curabitur luctus tristique pretium. Mauris tempor posuere luctus. Mauris et fringilla orci. Aliquam sed erat dapibus, aliquet sem a, tincidunt quam. Maecenas sit amet ultrices nulla. Etiam non semper nisl. Fusce a nisl ac lacus maximus eleifend in ut nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porta dolor sed tellus luctus vehicula.</string>
 			<key>quantity</key>
 			<integer>0</integer>
+			<key>id</key>
+			<string>menuItem5</string>
+			<key>isAdded</key>
+			<false/>
 		</dict>
 		<dict>
 			<key>menuItem</key>
@@ -269,6 +293,10 @@
 			<string>Curabitur luctus tristique pretium. Mauris tempor posuere luctus. Mauris et fringilla orci. Aliquam sed erat dapibus, aliquet sem a, tincidunt quam. Maecenas sit amet ultrices nulla. Etiam non semper nisl. Fusce a nisl ac lacus maximus eleifend in ut nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porta dolor sed tellus luctus vehicula.</string>
 			<key>quantity</key>
 			<integer>0</integer>
+			<key>id</key>
+			<string>menuItem6</string>
+			<key>isAdded</key>
+			<false/>
 		</dict>
 	</array>
 	<key>events</key>
