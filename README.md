@@ -35,41 +35,49 @@ The difference from the competition is that I want the UI especially to be user 
 ---
  
 Self evaluation and Documentation
----------------------------------
+=================================
 **Grade:**
+----------
 Personally, we would grade ourselves with a “B” for the project. We had a solid proposal for the project but I think we fell short with time and implementation. We overlooked our time span we had left to work with this project and did not have the resources to implement a core feature of the app we wanted to implement. It also deserves a “B” because we weren’t able to implement any extra features to it either due to our time constraints and other conflicting class projects. Positively thinking, we were able to implement most of the app's functionality including the homepage, a readable menu, links to the clients social media pages, and a contact page. If we had more time I believe we could have had everything necessary implemented and maybe more.
  
+---
+ 
 Described Classes/Structs:
---------------------------
+==========================
 **Structs:**
-_ContentView Struct_: This struct allows the app to run fully and function together using multiple views. It is where you run the application to view it working. It also implements the tab views within the app by adding each view within a TabView.
-MenuListView Struct: This struct shows the list of main items included in the menu. Will lead you to the MenuDetailView file through a navigation view.
-MenuDetailView Struct: Within this struct you can see individual food items in each list group with their prices and descriptions.
-MapView Struct: This is where the events will be displayed but in a map formation. You can get the directions directly to each event by tapping on them with the users exact location.
-MyMapTab Struct: This struct has been changed and won’t be used anymore. (Ignore).
-CartView Struct: This struct is where we would have had the user’s food selections stored in a cart fashion, unfortunately, we did not have time to fully implement it.
-HomeView Struct: This struct is the homepage of the application where the user will be brought to each time they launch the app. It includes reviews and a general announcement.
-SocialView Struct: This struct allows a user to follow/locate the client’s social media pages, including, Facebook, Instagram, and Twitter through a button action click on the page.
-ContactView Struct: This struct is where the user will be able to find the clients phone number and email address to get in contact with them in case they have further questions or want to book a catering order. Should be able to open the Phone Keypad and Email app but the simulator would not allow it to do so.
-Cart Struct: This struct is not in use, but was an attempt to further implement the cart to work. (Ignore).
-Classes:
-Menu Class: This is where all the variables are declared and used from the data.plist to get the information to be displayed in an orderly fashion on the MenuListView.Swift and MenuDetailView.Swift files on the UI of the application.
-Menus Class: This class makes all the variables stored in the Menu class observable and be able to be used across multiple views and update them in real time or load them in faster.
-LocationManager Class: This class imports CoreLocation which allows the users location to be tracked and allows us to input pin point locations on the map we have on the MapView struct using latitude and longitude coordinates.
-Event Class: Like our Menu class, this is where all the event variables are declared from the data.plist to get the information to be displayed within each pinpoint on the MapView.Swift file on the application. This allows us to get the pins to be dropped in specific locations due to their latitude and longitude.
-Events Class: This class makes all the variables stored in the Event class observable and be able to be used across multiple views and update them in real time or load them in faster, but we only utilize them on the MapView.
- 
+------------
+_ContentView Struct_: This struct allows the app to run fully and function together using multiple views. It is where you run the application to view it working. It also implements the tab views within the app by adding each view within a TabView.  
+_MenuListView Struct_: This struct shows the list of main items included in the menu. Will lead you to the MenuDetailView file through a navigation view.   
+_MenuDetailView Struct_: Within this struct you can see individual food items in each list group with their prices and descriptions.  
+_MapView Struct_: This is where the events will be displayed but in a map formation. You can get the directions directly to each event by tapping on them with the users exact location.  
+_MyMapTab Struct_: This struct has been changed and won’t be used anymore. (Ignore).  
+_CartView Struct_: This struct is where we would have had the user’s food selections stored in a cart fashion, unfortunately, we did not have time to fully implement it.  
+_HomeView Struct_: This struct is the homepage of the application where the user will be brought to each time they launch the app. It includes reviews and a general announcement.  
+_SocialView Struct_: This struct allows a user to follow/locate the client’s social media pages, including, Facebook, Instagram, and Twitter through a button action click on the page.  
+_ContactView Struct_: This struct is where the user will be able to find the clients phone number and email address to get in contact with them in case they have further questions or want to book a catering order. Should be able to open the Phone Keypad and Email app but the simulator would not allow it to do so.  
+_Cart Struct_: This struct is not in use, but was an attempt to further implement the cart to work. (Ignore).  
+
+**Classes:**
+------------
+_Menu Class_: This is where all the variables are declared and used from the data.plist to get the information to be displayed in an orderly fashion on the MenuListView.Swift and MenuDetailView.Swift files on the UI of the application.  
+_Menus Class_: This class makes all the variables stored in the Menu class observable and be able to be used across multiple views and update them in real time or load them in faster.  
+_LocationManager Class_: This class imports CoreLocation which allows the users location to be tracked and allows us to input pin point locations on the map we have on the MapView struct using latitude and longitude coordinates.  
+_Event Class_: Like our Menu class, this is where all the event variables are declared from the data.plist to get the information to be displayed within each pinpoint on the MapView.Swift file on the application. This allows us to get the pins to be dropped in specific locations due to their latitude and longitude.  
+_Events Class_: This class makes all the variables stored in the Event class observable and be able to be used across multiple views and update them in real time or load them in faster, but we only utilize them on the MapView.  
+
+---
+
 Declared Tutorials:
+-------------------
+**Code Tutorial(s) Used for Cart Page:**
+_SwiftUI Cart Page UI With Custom Swipe To Delete Action - Complex UI - SwiftUI 2.0 Tutorials_ https://www.youtube.com/watch?v=jXVQDmeNb8A&t=154s  By: Kavsoft
+_SwiftUI Complex UI Tutorials - E-Commerce App Cart Page UI - Xcode 12 - SwiftUI 2.0 Tutorials_ https://www.youtube.com/watch?v=IfQxVY6bHag&t=352s By: Kavsoft
  
-Code Tutorial(s) Used for Cart Page:
-SwiftUI Cart Page UI With Custom Swipe To Delete Action - Complex UI - SwiftUI 2.0 Tutorials https://www.youtube.com/watch?v=jXVQDmeNb8A&t=154s  By: Kavsoft
-SwiftUI Complex UI Tutorials - E-Commerce App Cart Page UI - Xcode 12 - SwiftUI 2.0 Tutorials https://www.youtube.com/watch?v=IfQxVY6bHag&t=352s By: Kavsoft
- 
-Code Tutorial(s) Used for Social Media Page:
+**Code Tutorial(s) Used for Social Media Page:**
 https://stackoverflow.com/questions/56518029/how-do-i-use-sfsafariviewcontroller-with-swiftui By: bheinz
  
-Code Tutorial(s) Used for Contact Page:
+**Code Tutorial(s) Used for Contact Page:**
 https://stackoverflow.com/questions/57582653/how-to-create-tappable-url-phone-number-in-swiftui By: Steve Dugan
  
-Code Tutorial Site Used for General Help:
+**Code Tutorial Site Used for General Help:**
 https://www.hackingwithswift.com/books/ios-swiftui/ By: Paul Hudson
