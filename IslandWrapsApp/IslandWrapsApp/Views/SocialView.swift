@@ -12,7 +12,7 @@ struct SocialView: View {
     // whether or not to show the Safari ViewController
     @State var showSafari = false
     // initial URL string
-    @State var link = "https://www.facebook.com/islandwraps2go/reviews/"
+    @State var link = "https://www.facebook.com/islandwraps2go"
     
     var body: some View {
         ZStack {
@@ -35,13 +35,13 @@ struct SocialView: View {
                 .offset(x: 0, y: -150)
             
             
-            VStack(spacing: 30) {
+            HStack(spacing: 30) {
                 Spacer()
                     .frame(height: 200)
                 // Make These buttons to the social links I sent you
                 Button(action: {
                     // update the URL if you'd like to
-                    self.link = "https://www.facebook.com/islandwraps2go/reviews/"
+                    self.link = "https://www.facebook.com/islandwraps2go"
                     // tell the app that we want to show the Safari VC
                     self.showSafari = true
                 }) {
@@ -80,11 +80,11 @@ struct SocialView: View {
                             SafariView(url:URL(string: self.link)!)
                         }
                 
-            }
-            // End of VStack for Social Medias
-        }
-    }
-}
+            } // End of HStack for Social Medias
+            .offset(x: -25, y: 250)
+        } // End fo ZStack
+    } // End of Body
+} // End of SocialView
 
 struct SafariView: UIViewControllerRepresentable {
 

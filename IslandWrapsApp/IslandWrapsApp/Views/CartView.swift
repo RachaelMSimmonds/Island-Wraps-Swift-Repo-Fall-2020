@@ -39,9 +39,9 @@ struct CartView: View {
             
         } // End of VStack
         .background(Color.white.ignoresSafeArea())
-    }
+    } // End of Body
 
-}
+} // End of CartView
 
 struct CartView_Previews: PreviewProvider {
     static var previews: some View {

@@ -24,8 +24,8 @@
 		C868C2F925645BDD009A4B56 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C868C2F825645BDD009A4B56 /* CartView.swift */; };
 		C8A068C32573631E004DD9A7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A068C22573631E004DD9A7 /* HomeView.swift */; };
 		C8A068C52573632E004DD9A7 /* SocialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A068C42573632E004DD9A7 /* SocialView.swift */; };
-		C8A068C72573633B004DD9A7 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A068C62573633B004DD9A7 /* ContactView.swift */; };
 		C8A068C925742D36004DD9A7 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A068C825742D36004DD9A7 /* Cart.swift */; };
+		C8A068CE2575C631004DD9A7 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A068CD2575C631004DD9A7 /* ContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,8 +48,8 @@
 		C868C2F825645BDD009A4B56 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		C8A068C22573631E004DD9A7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C8A068C42573632E004DD9A7 /* SocialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialView.swift; sourceTree = "<group>"; };
-		C8A068C62573633B004DD9A7 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		C8A068C825742D36004DD9A7 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		C8A068CD2575C631004DD9A7 /* ContactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 				C868C2F825645BDD009A4B56 /* CartView.swift */,
 				C8A068C22573631E004DD9A7 /* HomeView.swift */,
 				C8A068C42573632E004DD9A7 /* SocialView.swift */,
-				C8A068C62573633B004DD9A7 /* ContactView.swift */,
+				C8A068CD2575C631004DD9A7 /* ContactView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,6 +203,7 @@
 				54300DD9255D87A600CB1E15 /* MapView.swift in Sources */,
 				54300DDD255D88BF00CB1E15 /* Event.swift in Sources */,
 				C8A068C32573631E004DD9A7 /* HomeView.swift in Sources */,
+				C8A068CE2575C631004DD9A7 /* ContactView.swift in Sources */,
 				54BDF8D8255DDF5C00BFE668 /* MyMapTab.swift in Sources */,
 				54300DCA255C7BBE00CB1E15 /* MenuListView.swift in Sources */,
 				C8099A42252FBB2F001B2A6A /* ContentView.swift in Sources */,
@@ -213,7 +214,6 @@
 				54300DCC255C7BC800CB1E15 /* MenuDetailView.swift in Sources */,
 				C8099A40252FBB2F001B2A6A /* IslandWrapsAppApp.swift in Sources */,
 				54300DCF255C7D8900CB1E15 /* Menu.swift in Sources */,
-				C8A068C72573633B004DD9A7 /* ContactView.swift in Sources */,
 				C8A068C52573632E004DD9A7 /* SocialView.swift in Sources */,
 				C8A068C925742D36004DD9A7 /* Cart.swift in Sources */,
 			);

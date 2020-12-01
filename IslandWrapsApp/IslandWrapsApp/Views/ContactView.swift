@@ -47,11 +47,11 @@ struct ContactView: View {
                     Link("islandwraps2go@gmail.com", destination: URL(string: "mailto:islandwraps2go@gmail.com")!)
                 
 
-            }//End of VStack
+            } // End of VStack
 
-        }
-    }
-}
+        } // End of ZStack
+    } // End of Body
+} // End of ContactView
 
 struct ContactView_Previews: PreviewProvider {
     static var previews: some View {
